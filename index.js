@@ -122,7 +122,7 @@ const adicionarParticipante = (event) => {
     dataCheckIn: null  
   }
 
-  // verificar se o particpante já existe
+  // verificar se o participante já existe
   const participanteExiste = participantes.find(
     (p) => p.email == participante.email
   )
